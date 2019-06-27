@@ -1,0 +1,87 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  /* ----Config do display---- */
+  display: flex;
+
+  /* ----Alinhamento em linha---- */
+  /* flex-direction: row; */
+
+  /* ----Alinhamento em linha reverso---- */
+  /* flex-direction: row-reverse; */
+
+  /* ----Alinhamento em coluna---- */
+  /* flex-direction: column; */
+
+  /* ----Alinhamento em coluna reverso---- */
+  /* flex-direction: column-reverse */
+
+  /* ----Alinhamento vertical em row e horizontal em column---- */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+
+  /* ----Alinhamento horizontal em row e column---- */
+  /* justify-content: flex-start; */
+  /* justify-content: center; */
+  /* justify-content: flex-start; */
+  /* ----Propriedades adicionais do justify----*/
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+
+  /*----Quebras de linhas resposivas----*/
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+
+  /*----Alinha o conteudo das linhas quebradas----*/
+  /*----Partilha das mesmas propiedades do justify----*/
+  /* align-content: center; */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: space-around; */
+  /* align-content: space-between; */
+}
+
+.box {
+  /* width: 60px; */
+  /* width: 100px; */
+  width: 150px;
+  /* width: 300px; */
+  height: 60px;
+  margin: 5px;
+
+  /* Propriedades de items filhos */
+
+  /* Items sempre ocupam todo espaço da tela (encolhem/esticam) */
+  /* flex-grow: 1; */
+  /* capacidade de encolher um item responsivamente */
+  /* flex-shrink: 1; */
+
+  /*combinação entre grow e shrink*/
+  /* flex: 1; */
+  /* flex: 1 0; */
+}
+
+/* Colors */
+.red {
+  /* Ordem dos items */
+  order: 2;
+  background: #f00;
+}
+
+.green {
+  /* Ordem dos items */
+  order: 1;
+  background: #0f0;
+}
+
+.blue {
+  /* Ordem dos items */
+  order: 0;
+  background: #00f;
+}
